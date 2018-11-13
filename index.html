@@ -5,32 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
 </head>
 <body>
   
     
+
+    <nav class="header">
+            <h1>
+              <img src="assets/images/crystal-diamond.png" width="40" height="50"  alt="">
+            Crystal Guessing Game
+            </h1>
+            
+    </nav>
   <div class="container">
 
-    <nav class="navbar navbar-light bg-light row">
-            <a class="navbar-brand" href="#" style="font-size: 40px; font-weight: bold;">
-              <img src="assets/images/crystal-head.jpg" width="50" height="35" class="d-inline-block align-center" alt="">
-            Crystal Guessing Game
-            </a>
-    </nav>
+
+    <div class="row" id="directions">
+      <p>You are given a random number at the beginning of each game.</p>
+      
+      <p>Each crystal below will also be assigned a random number each game. By clicking a crystal you will be adding that amount to your total score.</p>
+      
+      <p>To win the game you much use those four crystals to get your total score to match the random number.</p>
+      
+      <p>You will not know what numbers are assigned to each crystal till you click them.</p>
+      
+      <p>Click any crystal to begin.</p>
+      
+      <p>Good luck!</p>
+    </div>
 
     <div class="row">
-      <div class="col-8">
-
+      <div class="col-4" id="randomNumber">
+      
 
       </div>
       
-      <div class="col-4">
+      <div class="col-4" id="userScore">
 
-
+        
       </div>
+
+    </div>
+
+    <div class="row" id="crystalBody">
+      <img class="crystalBtn" src="../unit-4-game/assets/images/2-Star_Crystal.png" alt="Crystal">
+      <img class="crystalBtn" src="../unit-4-game/assets/images/purple-crystal.png" alt="Crystal">
+      <img class="crystalBtn" src="../unit-4-game/assets/images/Crystal-real.png" alt="Crystal">
+      <img class="crystalBtn" src="../unit-4-game/assets/images/crystal-diamond.png" alt="Crystal">
 
 
     </div>
