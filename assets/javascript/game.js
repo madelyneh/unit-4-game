@@ -26,7 +26,9 @@ let crystal = [
 // each crystal are a different random amonut that adds to total player a
 
 
-
+$(".crystalBtn").on("click", function() {
+  console.log("clicked");
+});
 
 
 // $("#btn").on("click", function(){
